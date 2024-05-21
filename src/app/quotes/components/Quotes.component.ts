@@ -25,11 +25,11 @@ export class QuotesComponent implements OnInit {
   }
 
   createNewQuote() {
-    this.service.addNewQuote(this.quoteText);
+    // this.service.addNewQuote(this.quoteText);
     this.quoteText = "";
   }
 
   removeQuote(index:number) {
-    this.service.removeQuote(index);
+    // this.service.removeQuote(index);
   }
 }
